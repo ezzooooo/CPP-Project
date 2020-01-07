@@ -129,7 +129,10 @@
     <ClCompile Include="overloading3.cpp" />
     <ClCompile Include="photon_cannon.cpp" />
     <ClCompile Include="Point.cpp" />
-    <ClCompile Include="starcraft.cpp" />
+    <ClCompile Include="marine.cpp" />
+    <ClCompile Include="reference_return_function.cpp" />
+    <ClCompile Include="string_class_quest.cpp" />
+    <ClCompile Include="string_quest.cpp" />
     <ClCompile Include="switch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -45,5 +45,14 @@
     <ClCompile Include="Point.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="starcraft.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="destructor_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="photon_cannon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

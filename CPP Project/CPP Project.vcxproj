@@ -123,10 +123,13 @@
     <ClCompile Include="class.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Date_Constructor.cpp" />
+    <ClCompile Include="destructor_test.cpp" />
     <ClCompile Include="overloading1.cpp" />
     <ClCompile Include="overloading2.cpp" />
     <ClCompile Include="overloading3.cpp" />
+    <ClCompile Include="photon_cannon.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="starcraft.cpp" />
     <ClCompile Include="switch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

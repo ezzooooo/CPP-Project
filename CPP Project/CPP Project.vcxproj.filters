@@ -96,5 +96,8 @@
     <ClCompile Include="Matrix_2D.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix_nD.cpp">
+      <Filter>소스 파일\연산자</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

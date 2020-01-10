@@ -118,8 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="string.cpp" />
+    <ClCompile Include="상속\Employee.cpp" />
+    <ClCompile Include="상속\string.cpp" />
     <ClCompile Include="동적할당\Animal.cpp" />
     <ClCompile Include="객체,클래스\calendar.cpp" />
     <ClCompile Include="객체,클래스\class.cpp" />

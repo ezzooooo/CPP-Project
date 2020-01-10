@@ -102,10 +102,10 @@
     <ClCompile Include="연산자\plusplus.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="string.cpp">
+    <ClCompile Include="상속\Employee.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
-    <ClCompile Include="Employee.cpp">
+    <ClCompile Include="상속\string.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
   </ItemGroup>

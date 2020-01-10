@@ -1,4 +1,3 @@
-// 2020.01.06
 
 //#include <iostream>
 //

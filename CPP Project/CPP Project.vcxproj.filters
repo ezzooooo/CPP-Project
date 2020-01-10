@@ -25,79 +25,88 @@
     <Filter Include="소스 파일\연산자">
       <UniqueIdentifier>{4f155797-3767-4205-930a-3557f921564d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\상속">
+      <UniqueIdentifier>{5d003b0c-7413-403c-ae4b-b49187c95f2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="switch.cpp">
+    <ClCompile Include="객체,클래스\calendar.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\class.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\Date.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\Date_Constructor.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\destructor_test.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\explicit.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\marine.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\mutable.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\overloading1.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\overloading2.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\overloading3.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\photon_cannon.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\Point.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\string_class_quest.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="객체,클래스\string_quest.cpp">
+      <Filter>소스 파일\객체,클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="기초문법\reference_return_function.cpp">
       <Filter>소스 파일\기초문법</Filter>
     </ClCompile>
-    <ClCompile Include="reference_return_function.cpp">
+    <ClCompile Include="기초문법\switch.cpp">
       <Filter>소스 파일\기초문법</Filter>
     </ClCompile>
-    <ClCompile Include="Animal.cpp">
+    <ClCompile Include="동적할당\Animal.cpp">
       <Filter>소스 파일\동적할당</Filter>
     </ClCompile>
-    <ClCompile Include="Date.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="calendar.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="class.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="Date_Constructor.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="destructor_test.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="marine.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="overloading1.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="overloading2.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="overloading3.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="photon_cannon.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="string_class_quest.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="string_quest.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="explicit.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="mutable.cpp">
-      <Filter>소스 파일\객체,클래스</Filter>
-    </ClCompile>
-    <ClCompile Include="MyString2.cpp">
+    <ClCompile Include="연산자\Complex.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="Complex.cpp">
+    <ClCompile Include="연산자\intWrapper.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="intWrapper.cpp">
+    <ClCompile Include="연산자\Matrix_2D.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="plusplus.cpp">
+    <ClCompile Include="연산자\Matrix_nD.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="Matrix_2D.cpp">
+    <ClCompile Include="연산자\MyString2.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="Matrix_nD.cpp">
+    <ClCompile Include="연산자\plusplus.cpp">
       <Filter>소스 파일\연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>소스 파일\상속</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

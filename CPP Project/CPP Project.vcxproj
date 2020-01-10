@@ -118,30 +118,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Animal.cpp" />
-    <ClCompile Include="calendar.cpp" />
-    <ClCompile Include="class.cpp" />
-    <ClCompile Include="Complex.cpp" />
-    <ClCompile Include="Date.cpp" />
-    <ClCompile Include="Date_Constructor.cpp" />
-    <ClCompile Include="destructor_test.cpp" />
-    <ClCompile Include="explicit.cpp" />
-    <ClCompile Include="intWrapper.cpp" />
-    <ClCompile Include="Matrix_2D.cpp" />
-    <ClCompile Include="Matrix_nD.cpp" />
-    <ClCompile Include="mutable.cpp" />
-    <ClCompile Include="MyString2.cpp" />
-    <ClCompile Include="overloading1.cpp" />
-    <ClCompile Include="overloading2.cpp" />
-    <ClCompile Include="overloading3.cpp" />
-    <ClCompile Include="photon_cannon.cpp" />
-    <ClCompile Include="plusplus.cpp" />
-    <ClCompile Include="Point.cpp" />
-    <ClCompile Include="marine.cpp" />
-    <ClCompile Include="reference_return_function.cpp" />
-    <ClCompile Include="string_class_quest.cpp" />
-    <ClCompile Include="string_quest.cpp" />
-    <ClCompile Include="switch.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="string.cpp" />
+    <ClCompile Include="동적할당\Animal.cpp" />
+    <ClCompile Include="객체,클래스\calendar.cpp" />
+    <ClCompile Include="객체,클래스\class.cpp" />
+    <ClCompile Include="연산자\Complex.cpp" />
+    <ClCompile Include="객체,클래스\Date.cpp" />
+    <ClCompile Include="객체,클래스\Date_Constructor.cpp" />
+    <ClCompile Include="객체,클래스\destructor_test.cpp" />
+    <ClCompile Include="객체,클래스\explicit.cpp" />
+    <ClCompile Include="연산자\intWrapper.cpp" />
+    <ClCompile Include="연산자\Matrix_2D.cpp" />
+    <ClCompile Include="연산자\Matrix_nD.cpp" />
+    <ClCompile Include="객체,클래스\mutable.cpp" />
+    <ClCompile Include="연산자\MyString2.cpp" />
+    <ClCompile Include="객체,클래스\overloading1.cpp" />
+    <ClCompile Include="객체,클래스\overloading2.cpp" />
+    <ClCompile Include="객체,클래스\overloading3.cpp" />
+    <ClCompile Include="객체,클래스\photon_cannon.cpp" />
+    <ClCompile Include="연산자\plusplus.cpp" />
+    <ClCompile Include="객체,클래스\Point.cpp" />
+    <ClCompile Include="객체,클래스\marine.cpp" />
+    <ClCompile Include="기초문법\reference_return_function.cpp" />
+    <ClCompile Include="객체,클래스\string_class_quest.cpp" />
+    <ClCompile Include="객체,클래스\string_quest.cpp" />
+    <ClCompile Include="기초문법\switch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -118,6 +118,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="상속\base_inheritance.cpp" />
     <ClCompile Include="상속\Employee.cpp" />
     <ClCompile Include="상속\string.cpp" />
     <ClCompile Include="동적할당\Animal.cpp" />

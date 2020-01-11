@@ -108,5 +108,8 @@
     <ClCompile Include="상속\string.cpp">
       <Filter>소스 파일\상속</Filter>
     </ClCompile>
+    <ClCompile Include="상속\base_inheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

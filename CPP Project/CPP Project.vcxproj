@@ -118,9 +118,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="상속\base_inheritance.cpp" />
-    <ClCompile Include="상속\Employee.cpp" />
-    <ClCompile Include="상속\string.cpp" />
+    <ClCompile Include="상속, 가상함수\base_inheritance.cpp" />
+    <ClCompile Include="상속, 가상함수\Employee.cpp" />
+    <ClCompile Include="상속, 가상함수\mutiple_inheritance.cpp" />
+    <ClCompile Include="상속, 가상함수\Parent.cpp" />
+    <ClCompile Include="상속, 가상함수\pure_virtual_func.cpp" />
+    <ClCompile Include="상속, 가상함수\reference_virtual.cpp" />
+    <ClCompile Include="상속, 가상함수\string.cpp" />
     <ClCompile Include="동적할당\Animal.cpp" />
     <ClCompile Include="객체,클래스\calendar.cpp" />
     <ClCompile Include="객체,클래스\class.cpp" />
@@ -145,6 +149,23 @@
     <ClCompile Include="객체,클래스\string_class_quest.cpp" />
     <ClCompile Include="객체,클래스\string_quest.cpp" />
     <ClCompile Include="기초문법\switch.cpp" />
+    <ClCompile Include="입출력\cin_test.cpp" />
+    <ClCompile Include="입출력\format_flag.cpp" />
+    <ClCompile Include="입출력\fstream_binary.cpp" />
+    <ClCompile Include="입출력\fstream_getline.cpp" />
+    <ClCompile Include="입출력\fstream_test.cpp" />
+    <ClCompile Include="입출력\fstream_whole_file.cpp" />
+    <ClCompile Include="입출력\manipulator.cpp" />
+    <ClCompile Include="입출력\ofstream_ate-app.cpp" />
+    <ClCompile Include="입출력\ofstream_overloading.cpp" />
+    <ClCompile Include="입출력\ofstream__test.cpp" />
+    <ClCompile Include="입출력\streambuf.cpp" />
+    <ClCompile Include="입출력\stringstream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
+    <Text Include="other.txt" />
+    <Text Include="test2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

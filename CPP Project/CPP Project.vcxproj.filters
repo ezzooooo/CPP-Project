@@ -102,14 +102,67 @@
     <ClCompile Include="연산자\plusplus.cpp">
       <Filter>소스 파일\연산자</Filter>
     </ClCompile>
-    <ClCompile Include="상속\Employee.cpp">
-      <Filter>소스 파일\상속</Filter>
-    </ClCompile>
-    <ClCompile Include="상속\string.cpp">
-      <Filter>소스 파일\상속</Filter>
-    </ClCompile>
-    <ClCompile Include="상속\base_inheritance.cpp">
+    <ClCompile Include="상속, 가상함수\base_inheritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="상속, 가상함수\Employee.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
+    <ClCompile Include="상속, 가상함수\string.cpp">
+      <Filter>소스 파일\상속</Filter>
+    </ClCompile>
+    <ClCompile Include="상속, 가상함수\Parent.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="상속, 가상함수\reference_virtual.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="상속, 가상함수\pure_virtual_func.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="상속, 가상함수\mutiple_inheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\cin_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\format_flag.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\manipulator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\streambuf.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\fstream_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\fstream_binary.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\fstream_whole_file.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\fstream_getline.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\ofstream__test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\ofstream_ate-app.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\ofstream_overloading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력\stringstream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
+    <Text Include="other.txt" />
+    <Text Include="test2.txt" />
   </ItemGroup>
 </Project>

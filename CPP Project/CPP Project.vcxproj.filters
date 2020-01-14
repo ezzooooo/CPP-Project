@@ -159,6 +159,9 @@
     <ClCompile Include="입출력\stringstream.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="엑셀\MyExcel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

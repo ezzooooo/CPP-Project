@@ -128,6 +128,7 @@
     <ClCompile Include="동적할당\Animal.cpp" />
     <ClCompile Include="객체,클래스\calendar.cpp" />
     <ClCompile Include="객체,클래스\class.cpp" />
+    <ClCompile Include="엑셀\MyExcel.cpp" />
     <ClCompile Include="연산자\Complex.cpp" />
     <ClCompile Include="객체,클래스\Date.cpp" />
     <ClCompile Include="객체,클래스\Date_Constructor.cpp" />

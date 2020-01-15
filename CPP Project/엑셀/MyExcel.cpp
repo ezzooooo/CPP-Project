@@ -64,10 +64,33 @@ namespace MyExcel {
       TxtTable(int x, int y) : Table(x, y) {}
 
       std::string print_table() {
+        int *max_length = new int[x];
+        
         std::string return_table;
 
         for (int i = 0; i < x; i++) {
+          max_length[i] = 0;
+        }
+
+        for (int i = 0; i < x; i++) {
           for (int j = 0; j < y; j++) {
+            if (data_table[i][j]) {
+              if (max_length[i] < data_table[i][j]->get_string().length())
+                max_length[i] = data_table[i][j]->get_string().length();
+            }
+            else {
+              max_length[i] = 0;
+            }
+          }
+        }
+
+        for (int i = 0; i < x; i++) {
+          for (int j = 0; j < y; j++) {
+            if (max_length[i] > data_table[i][j]->get_string().length()) {
+              for (int k = data_table[i][j]->get_string().length(); k < max_length[i]; k++) {
+                return_table += " ";
+              }
+            }
             if (data_table[i][j]) {
               return_table += data_table[i][j]->get_string();
             }

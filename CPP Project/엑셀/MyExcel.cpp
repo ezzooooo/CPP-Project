@@ -1,3 +1,4 @@
+#include <fstream>
 #include <iostream>
 #include <string>
 
@@ -6,15 +7,13 @@ namespace MyExcel {
   class Cell {
     protected:
       Table* t;
-      std::string s;
       int x, y;
 
     public:
-      Cell(std::string s, int x, int y, Table* t) : x(x), y(y), s(s), t(t) {}
-      
-      virtual std::string get_string() {
-        return s;
-      }
+      virtual std::string stringify() = 0;
+      virtual int to_numeric() = 0;
+
+      Cell(int x, int y, Table* t) : x(x), y(y), t(t) {} 
   };
   class Table {
     protected:
@@ -64,31 +63,54 @@ namespace MyExcel {
       TxtTable(int x, int y) : Table(x, y) {}
 
       std::string print_table() {
-        int *max_length = new int[x];
+        int *max_length = new int[y];
         
         std::string return_table;
 
-        for (int i = 0; i < x; i++) {
+        for (int i = 0; i < y; i++) {
           max_length[i] = 0;
         }
 
         for (int i = 0; i < x; i++) {
           for (int j = 0; j < y; j++) {
             if (data_table[i][j]) {
-              if (max_length[i] < data_table[i][j]->get_string().length())
-                max_length[i] = data_table[i][j]->get_string().length();
-            }
-            else {
-              max_length[i] = 0;
+              if (max_length[j] < data_table[i][j]->get_string().length())
+                max_length[j] = data_table[i][j]->get_string().length();
             }
           }
         }
 
+        return_table += "  |";
+        for (int i = 0; i < y; i++) {
+          for (int k = 0; k < max_length[i]; k++) {
+            return_table += " ";
+          }
+          return_table += i + 65;
+          return_table += "| ";
+        }
+        return_table += "\n";
+
+        for (int i = 0; i < y; i++) {
+          for (int k = 0; k < max_length[i]; k++) {
+            return_table += "-";
+          }
+          return_table += "---";
+        }
+        return_table += "--\n";
+
         for (int i = 0; i < x; i++) {
           for (int j = 0; j < y; j++) {
-            if (max_length[i] > data_table[i][j]->get_string().length()) {
-              for (int k = data_table[i][j]->get_string().length(); k < max_length[i]; k++) {
+            if (j == 0) return_table += std::to_string(i+1) + " |";
+            if (data_table[i][j] && max_length[j] > data_table[i][j]->get_string().length()) {
+              for (int k = data_table[i][j]->get_string().length(); k < max_length[j]; k++) {
                 return_table += " ";
+              }
+            }
+            else {
+              if (!data_table[i][j]) {
+                for (int k = 0; k < max_length[j]; k++) {
+                  return_table += " ";
+                }
               }
             }
             if (data_table[i][j]) {
@@ -96,22 +118,68 @@ namespace MyExcel {
             }
             return_table += " | ";
           }
+
           return_table += "\n";
+
+          for (int i = 0; i < y; i++) {
+            for (int k = 0; k < max_length[i]; k++) {
+              return_table += "-";
+            }
+            return_table += "---";
+          }
+          return_table += "--\n";
         }
+
+        return return_table;
+      }
+  };
+
+  class HtmlTable : public Table {
+    public:
+      HtmlTable(int x, int y) : Table(x, y) {}
+
+      std::string print_table() {
+        std::string return_table;
+
+        return_table = "<table border='1' cellpadding='10'>";
+        for (int i = 0; i < x; i++) {
+          return_table += "<tr>";
+          for (int j = 0; j < y; j++) {
+            return_table += "<td>";
+            if(data_table[i][j]) return_table += data_table[i][j]->get_string();
+            return_table += "</td>";
+          }
+          return_table += "</tr>";
+        }
+        return_table += "</table>";
 
         return return_table;
       }
   };
 }
 
+
+
 int main() {
   MyExcel::TxtTable table(5, 5);
-  //std::ofstream out("test.txt");
+  std::ofstream out("test3.txt");
 
   table.reg_cell(new MyExcel::Cell("Hello~", 0, 0, &table), 0, 0);
   table.reg_cell(new MyExcel::Cell("C++", 0, 1, &table), 0, 1);
 
   table.reg_cell(new MyExcel::Cell("Programming", 1, 1, &table), 1, 1);
+  table.reg_cell(new MyExcel::Cell("zz", 3, 2, &table), 3, 2);
   std::cout << std::endl << table;
-  //out << table;
+  out << table;
+
+  MyExcel::HtmlTable table2(5, 5);
+  std::ofstream out2("test4.html");
+
+  table2.reg_cell(new MyExcel::Cell("Hello~", 0, 0, &table2), 0, 0);
+  table2.reg_cell(new MyExcel::Cell("C++", 0, 1, &table2), 0, 1);
+
+  table2.reg_cell(new MyExcel::Cell("Programming", 1, 1, &table2), 1, 1);
+  table2.reg_cell(new MyExcel::Cell("zz", 3, 2, &table2), 3, 2);
+  std::cout << std::endl << table2;
+  out2 << table2;
 }

@@ -171,6 +171,12 @@
     <ClCompile Include="템플릿\function_object-functor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="템플릿\non-type_template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="템플릿\default_template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

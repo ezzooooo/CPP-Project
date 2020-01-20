@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/await /std:c++latest %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -163,10 +164,15 @@
     <ClCompile Include="입출력\streambuf.cpp" />
     <ClCompile Include="입출력\stringstream.cpp" />
     <ClCompile Include="템플릿\default_template.cpp" />
+    <ClCompile Include="템플릿\do_something_template.cpp" />
     <ClCompile Include="템플릿\function_object-functor.cpp" />
     <ClCompile Include="템플릿\function_template.cpp" />
     <ClCompile Include="템플릿\non-type_template.cpp" />
+    <ClCompile Include="템플릿\sizeof_template.cpp" />
+    <ClCompile Include="템플릿\sizeof_template_fold_expression.cpp" />
+    <ClCompile Include="템플릿\string_concat.cpp" />
     <ClCompile Include="템플릿\template_first.cpp" />
+    <ClCompile Include="템플릿\variadic_template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

@@ -192,6 +192,12 @@
     <ClCompile Include="템플릿\do_something_template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="STL\stl_vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\stl_iterator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

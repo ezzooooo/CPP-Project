@@ -192,10 +192,28 @@
     <ClCompile Include="템플릿\do_something_template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="STL\stl_vector.cpp">
+    <ClCompile Include="STL\vector\stl_const_iterator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="STL\stl_iterator.cpp">
+    <ClCompile Include="STL\vector\stl_iterator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\vector\stl_range_for_loop.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\vector\stl_reverse_iterator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\vector\stl_vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\list\stl_list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\list\stl_print_list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\deque\stl_deque.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

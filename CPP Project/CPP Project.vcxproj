@@ -119,8 +119,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="STL\stl_iterator.cpp" />
-    <ClCompile Include="STL\stl_vector.cpp" />
+    <ClCompile Include="STL\deque\stl_deque.cpp" />
+    <ClCompile Include="STL\list\stl_list.cpp" />
+    <ClCompile Include="STL\list\stl_print_list.cpp" />
+    <ClCompile Include="STL\vector\stl_const_iterator.cpp" />
+    <ClCompile Include="STL\vector\stl_iterator.cpp" />
+    <ClCompile Include="STL\vector\stl_range_for_loop.cpp" />
+    <ClCompile Include="STL\vector\stl_reverse_iterator.cpp" />
+    <ClCompile Include="STL\vector\stl_vector.cpp" />
     <ClCompile Include="상속, 가상함수\base_inheritance.cpp" />
     <ClCompile Include="상속, 가상함수\Employee.cpp" />
     <ClCompile Include="상속, 가상함수\mutiple_inheritance.cpp" />

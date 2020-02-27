@@ -190,6 +190,8 @@
     <ClCompile Include="프로그래머스\스택,큐\주식가격%28미해결%29.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\탑.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\프린터.cpp" />
+    <ClCompile Include="프로그래머스\완전탐색\모의고사.cpp" />
+    <ClCompile Include="프로그래머스\완전탐색\소수 찾기.cpp" />
     <ClCompile Include="프로그래머스\정렬\H-Index.cpp" />
     <ClCompile Include="프로그래머스\정렬\K번째수.cpp" />
     <ClCompile Include="프로그래머스\정렬\가장큰수.cpp" />

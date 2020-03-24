@@ -267,6 +267,9 @@
     <ClCompile Include="알고리즘챌린지\N-Queen.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="알고리즘챌린지\연산자 끼워넣기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

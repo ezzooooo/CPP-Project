@@ -146,6 +146,7 @@
     <ClCompile Include="객체,클래스\class.cpp" />
     <ClCompile Include="알고리즘챌린지\N-Queen.cpp" />
     <ClCompile Include="알고리즘챌린지\단지번호붙이기.cpp" />
+    <ClCompile Include="알고리즘챌린지\연산자 끼워넣기.cpp" />
     <ClCompile Include="알고리즘챌린지\책페이지.cpp" />
     <ClCompile Include="엑셀\MyExcel.cpp" />
     <ClCompile Include="연산자\Complex.cpp" />

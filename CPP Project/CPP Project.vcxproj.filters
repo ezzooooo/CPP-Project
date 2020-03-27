@@ -270,6 +270,18 @@
     <ClCompile Include="알고리즘챌린지\연산자 끼워넣기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="알고리즘챌린지\스타트와 링크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘챌린지\가운데를 말해요.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘챌린지\트리의 순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘챌린지\순열의 순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

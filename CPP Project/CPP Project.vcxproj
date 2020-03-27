@@ -145,9 +145,13 @@
     <ClCompile Include="객체,클래스\calendar.cpp" />
     <ClCompile Include="객체,클래스\class.cpp" />
     <ClCompile Include="알고리즘챌린지\N-Queen.cpp" />
+    <ClCompile Include="알고리즘챌린지\가운데를 말해요.cpp" />
     <ClCompile Include="알고리즘챌린지\단지번호붙이기.cpp" />
+    <ClCompile Include="알고리즘챌린지\순열의 순서.cpp" />
+    <ClCompile Include="알고리즘챌린지\스타트와 링크.cpp" />
     <ClCompile Include="알고리즘챌린지\연산자 끼워넣기.cpp" />
     <ClCompile Include="알고리즘챌린지\책페이지.cpp" />
+    <ClCompile Include="알고리즘챌린지\트리의 순회.cpp" />
     <ClCompile Include="엑셀\MyExcel.cpp" />
     <ClCompile Include="연산자\Complex.cpp" />
     <ClCompile Include="객체,클래스\Date.cpp" />

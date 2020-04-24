@@ -152,6 +152,7 @@
     <ClCompile Include="객체,클래스\class.cpp" />
     <ClCompile Include="알고리즘챌린지\N-Queen.cpp" />
     <ClCompile Include="알고리즘챌린지\가운데를 말해요.cpp" />
+    <ClCompile Include="알고리즘챌린지\강의순서.cpp" />
     <ClCompile Include="알고리즘챌린지\단지번호붙이기.cpp" />
     <ClCompile Include="알고리즘챌린지\순열의 순서.cpp" />
     <ClCompile Include="알고리즘챌린지\스타트와 링크.cpp" />
@@ -207,10 +208,12 @@
     <ClCompile Include="템플릿\string_concat.cpp" />
     <ClCompile Include="템플릿\template_first.cpp" />
     <ClCompile Include="템플릿\variadic_template.cpp" />
-    <ClCompile Include="프로그래머스\레벨2\압축.cpp" />
-    <ClCompile Include="프로그래머스\레벨2\조이스틱%28미해결%29.cpp" />
     <ClCompile Include="프로그래머스\레벨2\끝말잇기.cpp" />
+    <ClCompile Include="프로그래머스\레벨2\압축.cpp" />
+    <ClCompile Include="프로그래머스\레벨2\조이스틱(미해결).cpp" />
     <ClCompile Include="프로그래머스\레벨2\튜플순서.cpp" />
+    <ClCompile Include="프로그래머스\레벨3\1.cpp" />
+    <ClCompile Include="프로그래머스\레벨3\2.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\기능개발.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\다리를 지나는 트럭.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\쇠막대기.cpp" />

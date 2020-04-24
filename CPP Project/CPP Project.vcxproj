@@ -134,6 +134,12 @@
     <ClCompile Include="STL\Sequence\vector\stl_range_for_loop.cpp" />
     <ClCompile Include="STL\Sequence\vector\stl_reverse_iterator.cpp" />
     <ClCompile Include="STL\Sequence\vector\stl_vector.cpp" />
+    <ClCompile Include="라인코테\1번.cpp" />
+    <ClCompile Include="라인코테\2번.cpp" />
+    <ClCompile Include="라인코테\3번.cpp" />
+    <ClCompile Include="라인코테\4번.cpp" />
+    <ClCompile Include="라인코테\5번.cpp" />
+    <ClCompile Include="라인코테\6번.cpp" />
     <ClCompile Include="상속, 가상함수\base_inheritance.cpp" />
     <ClCompile Include="상속, 가상함수\Employee.cpp" />
     <ClCompile Include="상속, 가상함수\mutiple_inheritance.cpp" />
@@ -186,6 +192,11 @@
     <ClCompile Include="입출력\ofstream__test.cpp" />
     <ClCompile Include="입출력\streambuf.cpp" />
     <ClCompile Include="입출력\stringstream.cpp" />
+    <ClCompile Include="카카오 인턴\방배정.cpp" />
+    <ClCompile Include="카카오 인턴\이모티콘.cpp" />
+    <ClCompile Include="카카오 인턴\인형뽑기.cpp" />
+    <ClCompile Include="카카오 인턴\징검다리건너기.cpp" />
+    <ClCompile Include="카카오 인턴\튜플.cpp" />
     <ClCompile Include="템플릿\default_template.cpp" />
     <ClCompile Include="템플릿\do_something_template.cpp" />
     <ClCompile Include="템플릿\function_object-functor.cpp" />
@@ -196,6 +207,10 @@
     <ClCompile Include="템플릿\string_concat.cpp" />
     <ClCompile Include="템플릿\template_first.cpp" />
     <ClCompile Include="템플릿\variadic_template.cpp" />
+    <ClCompile Include="프로그래머스\레벨2\압축.cpp" />
+    <ClCompile Include="프로그래머스\레벨2\조이스틱%28미해결%29.cpp" />
+    <ClCompile Include="프로그래머스\레벨2\끝말잇기.cpp" />
+    <ClCompile Include="프로그래머스\레벨2\튜플순서.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\기능개발.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\다리를 지나는 트럭.cpp" />
     <ClCompile Include="프로그래머스\스택,큐\쇠막대기.cpp" />
